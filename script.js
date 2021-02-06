@@ -32,7 +32,6 @@ function getMealList() {
                     </div>
             </div>
                     
-                
                 `;
                 });
                 mealList.classList.remove('notFound');
@@ -66,7 +65,7 @@ function getMealRecipe(e) {
 
 // create a modal
 function mealRecipeModal(meal) {
-    console.log(meal);
+   
     meal = meal[0];
     let html = `
       
@@ -80,7 +79,7 @@ function mealRecipeModal(meal) {
         <h4>${meal.strIngredient2}</h4>
         <h4>${meal.strIngredient3}</h4>
         <h4>${meal.strIngredient4}</h4>
-        <h4>${meal.strIngredient4}</h4>
+        <h4>${meal.strIngredient5}</h4>
         <h4>${meal.strIngredient6}</h4>
         <h4>${meal.strIngredient7}</h4>
         <h4>${meal.strIngredient8}</h4>
