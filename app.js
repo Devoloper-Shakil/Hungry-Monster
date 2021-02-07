@@ -45,12 +45,6 @@ function getMealList() {
 }
 
 
-const foodDetels = document.querySelector(".total-div");
-foodDetels.addEventListener("click", function () {
-
-})
-
-
 
 // get recipe of the meal
 function getMealRecipe(e) {
@@ -65,7 +59,7 @@ function getMealRecipe(e) {
 
 // create a modal
 function mealRecipeModal(meal) {
-   
+
     meal = meal[0];
     let html = `
       
